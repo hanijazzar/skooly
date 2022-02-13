@@ -1,0 +1,11 @@
+version: 0.0
+os: linux
+files:
+  - source: /
+    destination: /var/www/html/skooly/.
+    runas: root
+hooks:
+  AfterInstall:
+    - location: Scripts/after_install.sh
+      timeout: 100
+      runas: root

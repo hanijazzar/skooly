@@ -1,0 +1,193 @@
+// Here you can add other styles
+.c-sidebar .c-sidebar-nav-link.c-active, .c-sidebar .c-active.c-sidebar-nav-dropdown-toggle {
+  background: var(--primary);
+}
+
+.form-control, .form-control:focus {
+  color: #353b46;
+}
+
+.table thead th {
+  border-top: none;
+}
+
+.card-body.table-card {
+  padding-top: 1rem;
+}
+
+.loader-small {
+  border: 5px solid #f3f3f3;
+  -webkit-animation: spin 1s linear infinite;
+  animation: spin 1s linear infinite;
+  border-top: 5px solid var(--primary);
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  display: inline-block;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+@keyframes spinInverse {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(-360deg); }
+}
+
+.spin-icon {
+  -webkit-animation: spinInverse 1s linear infinite;
+  animation: spinInverse 1s linear infinite;
+}
+
+.switch-text {
+  margin-left: 10px;
+  position: relative;
+  top: -7px;
+}
+
+.td-field-row {
+  margin-bottom: 0;
+}
+
+.td-field-row-title {
+  margin-bottom: 0;
+  text-decoration: underline;
+}
+
+.img-in-table {
+  max-width: 100%;
+  max-height: 55px;
+}
+
+.error-text {
+  color: #e55353;
+  margin-top: 2px;
+  margin-bottom: 0px;
+  font-size: 13px;
+}
+
+.img-in-modal {
+  max-width: 100%;
+  max-height: 55px;
+}
+
+.custom-select {
+  color: #353b46;
+}
+
+.logo {
+  border-radius: 25px;
+  max-height: 130px;
+  margin-bottom: 18px;
+  margin-top: 10px;
+  padding: 5px;
+}
+
+.btn-primary {
+  color: white;
+}
+
+
+.logo-login {
+  max-width: 100%;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 14px;
+
+}
+
+.table-img {
+  max-width: 100%;
+  max-height: 45px;
+}
+
+.round-img {
+  border-radius: 30px;
+}
+
+.table th, .table td {
+  vertical-align: baseline;
+}
+
+.loading-container {
+  min-height: 200px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-top: 40px;
+}
+
+.btn-primary-outline {
+  background-color: white;
+  color: var(--primary);
+  border-color: var(--primary);
+}
+
+.btn-primary-outline:hover {
+  background-color: var(--primary);
+  color: white;
+  border-color: var(--primary);
+}
+
+.btn-danger-outline {
+  background-color: white;
+  color: var(--danger);
+  border-color: var(--danger);
+}
+
+.btn-danger-outline:hover {
+  background-color: var(--danger);
+  color: white;
+  border-color: var(--danger);
+}
+
+.c-avatar {
+  margin-right: 20px;
+}
+
+.map-div {
+  height: 700px;
+}
+
+.btn-no-focus:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+.btn-primary.btn-no-focus:focus {
+  background-color: var(--primary);
+  border-color: var(--primary);
+
+}
+
+
+.card-round {
+  border-radius: 15px;
+}
+
+.one-line {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.skooly-home {
+  max-height: 700px;
+}
+
+@media (min-width: 1292px) {
+  .modal-lg {
+    max-width: 1150px;
+  }
+}
+
+.btn-warning {
+  color: #121212;
+}
+
+.custom-select:disabled {
+  color: #353b46;
+  background-color: #d8dbe0;
+}
