@@ -15,7 +15,7 @@ To run the backend:
 
 
 To run the frontend: 
-- Frontend is developed using React
+- Frontend is developed using React, Redux, and React Query
 - Rename the file `.env.example` to `.env`
 - Put the correct URL for the API URL inside .env
 - Run `npm install` inside the directory `skooly/skooly-frontend/`
