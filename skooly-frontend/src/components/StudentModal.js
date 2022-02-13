@@ -331,7 +331,13 @@ const StudentModal = ({ student, loading }) => {
                 </CCol>
 
                 <CCol sm="1 pt-1">
-                  <CButton color="danger" className="mt-4" onClick={() => handleDeleteFamilyMember(familyMember)} title="Remove Member">
+                  <CButton
+                    color="danger"
+                    className="mt-4"
+                    onClick={() => handleDeleteFamilyMember(familyMember)}
+                    title="Remove Member"
+                    disabled={operation === 'View' && role === 'admin'}
+                  >
                     X
                   </CButton>
                 </CCol>

@@ -205,6 +205,9 @@ export class StudentsService {
             });
 
             await student.destroy();
+            await StudentFamilyMember.destroy({
+                where: { studentId: studentId },
+            });
 
             return new ReturnResponses().emitSuccess({});
         } catch (error) {
